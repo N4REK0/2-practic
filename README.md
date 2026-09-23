@@ -7,6 +7,7 @@
 
 <picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -34,8 +35,9 @@ namespace ConsoleApp1
 ---
 № 2. Каково значение res после выполнения int a = 5; int res = ++a * 2;? Ответ: res = 12 (префиксный инкремент увеличивает a до 6, затем умножение)
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/2 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -65,8 +67,9 @@ namespace ConsoleApp1
 ---
 № 3.Каково значение res после выполнения int a = 5; int res = a++ * 2;? Ответ: res = 10 (постфиксный инкремент использует исходное значение 5, затем a становится 6).
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/3 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -94,7 +97,7 @@ namespace ConsoleApp1
 ----
 № 4. Чему равен результат 7 / 2 и 7.0 / 2? Ответ: 3 (целочисленное деление) и 3.5 (деление с плавающей точкой).
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/4 задача.png.jpg"> 
 </picture>
 
 ```csharp
@@ -123,7 +126,7 @@ namespace ConsoleApp1
 ---
 № 5. Каков результат выражения -15 % 4 в C#? Ответ: -3 (знак остатка совпадает со знаком делимого).
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/5 задача.png.jpg"> 
 </picture>
 
 ```csharp
@@ -152,8 +155,9 @@ namespace ConsoleApp1
 ---
 №6. Что выведет выражение int x = 10; x = x++ + ++x;?
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/6 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -182,8 +186,9 @@ namespace ConsoleApp1
 ---
 №7. Что произойдет при выполнении int max = int.MaxValue; int res = checked(max + 1);?
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/7 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -209,7 +214,7 @@ namespace ConsoleApp1
 ---
 №8. Что произойдет при int max = int.MaxValue; int res = unchecked(max + 1);?
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/8 задача.png.jpg"> 
 </picture>
 
 ```csharp
@@ -238,8 +243,9 @@ namespace ConsoleApp1
 ---
 № 9. Чему равен результат деления 1.0 / 0.0 и 0.0 / 0.0?
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/9 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -268,8 +274,9 @@ namespace ConsoleApp1
 ---
 № 10. Вычислите: int a = 8; int b = 3; int c = a - b * 2 + a / b;
 
-<picture> <img src="3.1. Арифметические операторы/1 задача.png.jpg"> 
+<picture> <img src="3.1. Арифметические операторы/10 задача.png.jpg"> 
 </picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
