@@ -656,7 +656,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 27. 
+№ 27. Каков результат true || (x / 0 == 1) при любом целом x? Ответ: true (деление на ноль не произойдет из-за короткого замыкания ||).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -681,7 +681,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 28. 
+№ 28. Каков результат false & (10 / 0 == 1)? Ответ: Выбросится исключение DivideByZeroException, так как & обязательно вычисляет правый операнд.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -705,7 +705,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 29. 
+№ 29. Чему эквивалентно выражение !(A && B) по закону де Моргана? Ответ: !A || !B.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -731,7 +731,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 30. 
+№ 30. Чему эквивалентно выражение !(A || B) по закону де Моргана? Ответ: !A && !B.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -759,7 +759,7 @@ namespace ConsoleApp1
 Блок 3.4
 ---
 
-№ 31. 
+№ 31. Чему равен результат 5 & 3 в двоичном и десятичном виде? Ответ: 0101 & 0011 = 0001 (десятичное 1).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -783,7 +783,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 32. 
+№ 32. Чему равен результат 5 | 3? Ответ: 0101 | 0011 = 0111 (десятичное 7).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -806,7 +806,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 33. 
+№ 33. Чему равен результат 5 ^ 3? Ответ: 0101 ^ 0011 = 0110 (десятичное 6).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -828,7 +828,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 34. 
+№ 34. Вычислите ~0 для типа int. Ответ: -1 (все биты устанавливаются в 1, что в дополнительном коде равно -1).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -851,7 +851,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 35. 
+№ 35. Чему равно 1 << 4? Ответ: 16
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -874,7 +874,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 36. 
+№ 36. Чему равно 40 >> 2? Ответ: 10
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -897,7 +897,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 37. 
+№ 37. Как с помощью побитовой операции проверить, установлен ли третий бит числа n 
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -928,7 +928,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 38. 
+№ 38. Как с помощью побитовой операции установить 2-й бит числа n в 1? Ответ: n = n | (1 << 2); (или n |= (1 << 2);).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -950,7 +950,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 39. 
+№ 39. Как сбросить (установить в 0) 4-й бит числа n? Ответ: n = n & ~(1 << 4); (или n &= ~(1 << 4);).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -973,7 +973,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 40. 
+№ 40. Каков результат выражения (-16) >> 2 для int? Ответ: -4 (арифметический сдвиг вправо сохраняет знаковый бит 1).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -995,7 +995,7 @@ namespace ConsoleApp1
 ```
 Блок 3.5. Операторы присваивания
 ---
-№ 41. 
+№ 41. Что делает оператор x += 5? Ответ: Эквивалентен x = x + 5 (с приведением типа при необходимости).
 
 ```csharp
 using System;
@@ -1020,7 +1020,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№   42. 
+№   42. Каково значение a после выполнения: int a = 10; a *= 2 + 3;? Ответ: 50 (правая часть вычисляется полностью перед умножением: a = a * (2 + 3)).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1044,7 +1044,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 43. 
+№ 43. Чему равен x после int x = 12; x >>= 2;? Ответ: 3.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1068,7 +1068,7 @@ namespace ConsoleApp1
 ```
 
 ---
-№ 44. 
+№ 44. Что делает оператор x ??= y? Ответ: Присваивает переменной x значение y только в том случае, если x == null.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1092,7 +1092,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 45. 
+№ 45. Чему будет равна строка str
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1116,7 +1116,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 46. 
+№ 46. Допустимо ли выражение byte b = 1; b += 2; без явного приведения? Ответ: Да, составные операторы присваивания содержат неявное сужающее приведение типа: b = (byte)(b + 2).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1139,7 +1139,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 47. 
+№ 47. Чему равно значение c после int a = 5, b = 10, c = 0; c = a = b;? Ответ: 10 (присваивание ассоциативно справа налево).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1163,7 +1163,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 48. 
+№ 48. Каково значение mask после: int mask = 1; mask <<= 3; mask |= 2;? Ответ: 10 (1 << 3 = 8, затем 8 | 2 = 10).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1187,7 +1187,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 49. 
+№ 49. Чему равно x после int x = 15; x %= 4;? Ответ: 3.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1210,7 +1210,7 @@ namespace ConsoleApp1
 }
 ```
 ---
-№ 50. 
+№ 50. Чему равно x после int x = 7; x ^= 7;? Ответ: 0 (любое число XOR само с собой дает 0).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1234,7 +1234,7 @@ namespace ConsoleApp1
 ```
 Блок 3.6
 ---
-№ 51. 
+№ 51. Вычислите int score = 75; string res = score >= 60 ? "Pass" : "Fail";. Ответ: "Pass".
 
 ```csharp
 using System;
@@ -1257,7 +1257,7 @@ namespace _3._6.Тернарный_и_null_операторы
     }
 }
 ```
-№ 52. 
+№ 52. Чему равно int x = 5; int y = (x > 10) ? 100 : (x > 2) ? 50 : 0;? Ответ: 50.
 
 ---
 
@@ -1282,7 +1282,7 @@ namespace _3._6.Тернарный_и_null_операторы
     }
 }
 ```
-№ 53. 
+№ 53. Какой тип имеет результат выражения true ? 10 : 15.5? Ответ: double.
 
 ---
 
@@ -1307,7 +1307,7 @@ namespace _3._6.Тернарный_и_null_операторы
 }
 ```
 ---
-№ 54. 
+№ 54. Что выведет выражение string s = null; Console.WriteLine(s?.Length);? Ответ: Ничего / null (оператор ?. предотвращает NullReferenceException).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1329,7 +1329,7 @@ namespace _3._6.Тернарный_и_null_операторы
 }
 ```
 ---
-№ 55. 
+№ 55. Какой тип имеет результат выражения s?.Length для string s? Ответ: int? (Nullable<int>).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1353,7 +1353,7 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 
 ---
-№ 56. 
+№ 56. Вычислите: string name = null; string res = name ?? "Anonymous";. Ответ: "Anonymous".
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1377,7 +1377,7 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 
 ---
-№ 57. 
+№ 57. Вычислите: string a = null, b = "User", c = "Admin"; string res = a ?? b ?? c;. Ответ: "User".
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1401,7 +1401,7 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 
 ---
-№ 58. 
+№ 58. Что вернет выражение false ? (10 / 0) : 42? Ответ: 42 (второй операнд не вычисляется из-за ложного условия).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1425,7 +1425,7 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 
 ---
-№ 59. 
+№ 59. Скомпилируется ли код var x = condition ? 10 : "text";? Ответ: Нет (в классическом C#), так как у типов int и string нет неявного взаимного приведения.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1449,7 +1449,7 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 
 ---
-№ 60. 
+№ 60. Чему равно int? count = null; int res = count?.GetHashCode() ?? -1;? Ответ: -1.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1475,7 +1475,7 @@ namespace _3._6.Тернарный_и_null_операторы
 
 ## 3.7. Операторы типов и приведения
 ---
-№ 61. 
+№ 61. Что вернет выражение object obj = "Hello"; bool check = obj is string;? Ответ: true.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1499,7 +1499,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 62. 
+№ 62. Что вернет object obj = 123; string s = obj as string;? Ответ: null (оператор as возвращает null при невозможности безопасного приведения ссылочного типа).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1523,7 +1523,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 63. 
+№ 63. Что произойдет при явном приведении object obj = 123; string s = (string)obj;? Ответ: Выбросится исключение System.InvalidCastException.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1547,7 +1547,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 64. 
+№ 64. Что вернет typeof(int) == typeof(Int32)? Ответ: true (псевдоним языка ссылается на один и тот же тип CLR).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1570,7 +1570,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 65. 
+№ 65. Чему равен результат sizeof(long) в байтах? Ответ: 8.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1593,7 +1593,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 66. 
+№ 66. Что вернет null is string? Ответ: false (шаблон is для null всегда возвращает false, кроме шаблона is null).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1617,7 +1617,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 67. 
+№ 67. Что вернет выражение object x = null; bool b = x is null;? Ответ: true.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1641,7 +1641,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 68. 
+№ 68. Каков результат (int)3.99? Ответ: 3 (дробная часть отсекается без округления).
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1664,7 +1664,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 69. 
+№ 69. Каков результат pattern matching:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1688,7 +1688,7 @@ namespace _3._7.Операторы_типов_и_приведения
 }
 ```
 ---
-№ 70. 
+№ 70. Что вернет выражение default(int) и default(string)? Ответ: 0 и null
 ```csharp
 using System;
 using System.Collections.Generic;
