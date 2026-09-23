@@ -304,6 +304,9 @@ namespace ConsoleApp1
 ---
 № 11. Каков результат 5 > 3 и 5 >= 5 ? Ответ : true, true
 
+<picture> <img src="3.2. Операторы сравнения и равенства/1.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -329,6 +332,10 @@ namespace ConsoleApp1
 
 ---
 № 12. Чему равно "hello" == "hello" в C# и почему?
+
+<picture> <img src="3.2. Операторы сравнения и равенства/2.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -352,6 +359,10 @@ namespace ConsoleApp1
 
 ---
 № 13. Чему равно выражение double.NaN == double.NaN?
+
+<picture> <img src="3.2. Операторы сравнения и равенства/3.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -374,6 +385,9 @@ namespace ConsoleApp1
 ```
 ---
 № 14. Каков результат выражения object a = new int[] { 1 };
+
+<picture> <img src="3.2. Операторы сравнения и равенства/4.jpg"> 
+</picture>
 
 ```csharp
 using System;
@@ -401,6 +415,10 @@ namespace ConsoleApp1
 
 ---
 № 15. Чему равно 10 != 10.0?
+
+<picture> <img src="3.2. Операторы сравнения и равенства/5.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -425,6 +443,10 @@ namespace ConsoleApp1
 
 ---
 № 16. Что вернет null == null?
+
+<picture> <img src="3.2. Операторы сравнения и равенства/6.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -448,6 +470,9 @@ namespace ConsoleApp1
 
 ---
 № 17. Каков результат выражения (3 < 5) == (10 >= 20)?
+
+<picture> <img src="3.2. Операторы сравнения и равенства/7.jpg"> 
+</picture>
 
 ```csharp
 using System;
@@ -473,6 +498,9 @@ namespace ConsoleApp1
 ---
 №18. Вычислите bool res = 4 <= 4 && 5 > 2;
 
+<picture> <img src="3.2. Операторы сравнения и равенства/8.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -496,6 +524,9 @@ namespace ConsoleApp1
 
 ---
 № 19. Что вернет выражение char c = 'b'; bool res = c > 'a';? 
+
+<picture> <img src="3.2. Операторы сравнения и равенства/9.jpg"> 
+</picture>
 
 ```csharp
 using System;
@@ -523,6 +554,9 @@ namespace ConsoleApp1
 ---
 №20. Сравните результат bool r = -0.0 == 0.0;
 
+<picture> <img src="3.2. Операторы сравнения и равенства/10.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -549,6 +583,11 @@ namespace ConsoleApp1
 -
 № 21. Чему равен результат 5 & 3 в двоичном и десятичном виде?
 
+<picture> <img src="3.3 Логические операторы/1 задача.png.jpg"> 
+</picture>
+
+3.3 Логические операторы/1 задача.png.jpg
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -572,6 +611,9 @@ namespace ConsoleApp1
 
 ---
 № 22. Будет ли вызван метод Foo() в false && Foo()?
+
+<picture> <img src=""> 
+</picture>
 
 ```csharp
 using System;
@@ -598,6 +640,9 @@ namespace ConsoleApp1
 ---
 № 23. Будет ли вызван метод Foo() в false & Foo()? 
 
+<picture> <img src=""> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -621,6 +666,9 @@ namespace ConsoleApp1
 
 ---
 № 24. Вычислите результат: true ^ false ^ true.
+
+<picture> <img src="3.3 Логические операторы/4 задача.png.jpg"> 
+</picture>
 
 ```csharp
 using System;
@@ -646,6 +694,9 @@ namespace ConsoleApp1
 ---
 № 25. Что вернет выражение !(5 > 2 || 3 < 1) ?
 
+<picture> <img src="3.3 Логические операторы/5 задача.png.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -669,6 +720,9 @@ namespace ConsoleApp1
 
 ---
 № 26. Дано: bool a = true, b = false;. Чему равно a && !b || b && !a ?
+
+<picture> <img src="3.3 Логические операторы/6 задача.png.jpg"> 
+</picture>
 
 ```csharp
 using System;
@@ -694,6 +748,10 @@ namespace ConsoleApp1
 
 ---
 № 27. Каков результат true || (x / 0 == 1) при любом целом x? Ответ: true (деление на ноль не произойдет из-за короткого замыкания ||).
+
+<picture> <img src="3.3 Логические операторы/7 задача.png.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -719,6 +777,10 @@ namespace ConsoleApp1
 
 ---
 № 28. Каков результат false & (10 / 0 == 1)? Ответ: Выбросится исключение DivideByZeroException, так как & обязательно вычисляет правый операнд.
+
+<picture> <img src="3.3 Логические операторы/8 задача.png.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -743,6 +805,10 @@ namespace ConsoleApp1
 
 ---
 № 29. Чему эквивалентно выражение !(A && B) по закону де Моргана? Ответ: !A || !B.
+
+<picture> <img src="3.3 Логические операторы/9 задача.png.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -769,6 +835,10 @@ namespace ConsoleApp1
 
 ---
 № 30. Чему эквивалентно выражение !(A || B) по закону де Моргана? Ответ: !A && !B.
+
+<picture> <img src="3.3 Логические операторы/10 задача.png.jpg"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -797,6 +867,10 @@ namespace ConsoleApp1
 ---
 
 № 31. Чему равен результат 5 & 3 в двоичном и десятичном виде? Ответ: 0101 & 0011 = 0001 (десятичное 1).
+
+<picture> <img src="3.4/1 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -821,6 +895,10 @@ namespace ConsoleApp1
 
 ---
 № 32. Чему равен результат 5 | 3? Ответ: 0101 | 0011 = 0111 (десятичное 7).
+
+<picture> <img src="3.4/2 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -844,6 +922,10 @@ namespace ConsoleApp1
 ```
 ---
 № 33. Чему равен результат 5 ^ 3? Ответ: 0101 ^ 0011 = 0110 (десятичное 6).
+
+<picture> <img src="3.4/3 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -866,6 +948,10 @@ namespace ConsoleApp1
 ```
 ---
 № 34. Вычислите ~0 для типа int. Ответ: -1 (все биты устанавливаются в 1, что в дополнительном коде равно -1).
+
+<picture> <img src="3.4/4 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -889,6 +975,10 @@ namespace ConsoleApp1
 ```
 ---
 № 35. Чему равно 1 << 4? Ответ: 16
+
+<picture> <img src="3.4/5 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -912,6 +1002,10 @@ namespace ConsoleApp1
 ```
 ---
 № 36. Чему равно 40 >> 2? Ответ: 10
+
+<picture> <img src="3.4/6 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -935,6 +1029,10 @@ namespace ConsoleApp1
 ```
 ---
 № 37. Как с помощью побитовой операции проверить, установлен ли третий бит числа n 
+
+<picture> <img src="3.4/7 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -966,6 +1064,10 @@ namespace ConsoleApp1
 ```
 ---
 № 38. Как с помощью побитовой операции установить 2-й бит числа n в 1? Ответ: n = n | (1 << 2); (или n |= (1 << 2);).
+
+<picture> <img src="3.4/8 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -988,6 +1090,10 @@ namespace ConsoleApp1
 ```
 ---
 № 39. Как сбросить (установить в 0) 4-й бит числа n? Ответ: n = n & ~(1 << 4); (или n &= ~(1 << 4);).
+
+<picture> <img src="3.4/9 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1011,6 +1117,10 @@ namespace ConsoleApp1
 ```
 ---
 № 40. Каков результат выражения (-16) >> 2 для int? Ответ: -4 (арифметический сдвиг вправо сохраняет знаковый бит 1).
+
+<picture> <img src="3.4/10 задача.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1033,6 +1143,9 @@ namespace ConsoleApp1
 Блок 3.5. Операторы присваивания
 ---
 № 41. Что делает оператор x += 5? Ответ: Эквивалентен x = x + 5 (с приведением типа при необходимости).
+
+<picture> <img src="3.5/1.png"> 
+</picture>
 
 ```csharp
 using System;
@@ -1058,6 +1171,10 @@ namespace ConsoleApp1
 
 ---
 №   42. Каково значение a после выполнения: int a = 10; a *= 2 + 3;? Ответ: 50 (правая часть вычисляется полностью перед умножением: a = a * (2 + 3)).
+
+<picture> <img src="3.5/2.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1082,6 +1199,10 @@ namespace ConsoleApp1
 
 ---
 № 43. Чему равен x после int x = 12; x >>= 2;? Ответ: 3.
+
+<picture> <img src="3.5/3.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1106,6 +1227,10 @@ namespace ConsoleApp1
 
 ---
 № 44. Что делает оператор x ??= y? Ответ: Присваивает переменной x значение y только в том случае, если x == null.
+
+<picture> <img src="3.5/4.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1130,6 +1255,10 @@ namespace ConsoleApp1
 ```
 ---
 № 45. Чему будет равна строка str
+
+<picture> <img src="3.5/5.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1154,6 +1283,10 @@ namespace ConsoleApp1
 ```
 ---
 № 46. Допустимо ли выражение byte b = 1; b += 2; без явного приведения? Ответ: Да, составные операторы присваивания содержат неявное сужающее приведение типа: b = (byte)(b + 2).
+
+<picture> <img src="3.5/6.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1177,6 +1310,10 @@ namespace ConsoleApp1
 ```
 ---
 № 47. Чему равно значение c после int a = 5, b = 10, c = 0; c = a = b;? Ответ: 10 (присваивание ассоциативно справа налево).
+
+<picture> <img src="3.5/7.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1201,6 +1338,10 @@ namespace ConsoleApp1
 ```
 ---
 № 48. Каково значение mask после: int mask = 1; mask <<= 3; mask |= 2;? Ответ: 10 (1 << 3 = 8, затем 8 | 2 = 10).
+
+<picture> <img src="3.5/8.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1225,6 +1366,10 @@ namespace ConsoleApp1
 ```
 ---
 № 49. Чему равно x после int x = 15; x %= 4;? Ответ: 3.
+
+<picture> <img src="3.5/9.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1248,6 +1393,10 @@ namespace ConsoleApp1
 ```
 ---
 № 50. Чему равно x после int x = 7; x ^= 7;? Ответ: 0 (любое число XOR само с собой дает 0).
+
+<picture> <img src="3.5/10.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1273,6 +1422,9 @@ namespace ConsoleApp1
 ---
 № 51. Вычислите int score = 75; string res = score >= 60 ? "Pass" : "Fail";. Ответ: "Pass".
 
+<picture> <img src="3.6/1.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1295,6 +1447,9 @@ namespace _3._6.Тернарный_и_null_операторы
 }
 ```
 № 52. Чему равно int x = 5; int y = (x > 10) ? 100 : (x > 2) ? 50 : 0;? Ответ: 50.
+
+<picture> <img src="3.6/2.png"> 
+</picture>
 
 ---
 
@@ -1321,6 +1476,9 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 № 53. Какой тип имеет результат выражения true ? 10 : 15.5? Ответ: double.
 
+<picture> <img src="3.6/3.png"> 
+</picture>
+
 ---
 
 ```csharp
@@ -1345,6 +1503,10 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 ---
 № 54. Что выведет выражение string s = null; Console.WriteLine(s?.Length);? Ответ: Ничего / null (оператор ?. предотвращает NullReferenceException).
+
+<picture> <img src="3.6/4.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1367,6 +1529,10 @@ namespace _3._6.Тернарный_и_null_операторы
 ```
 ---
 № 55. Какой тип имеет результат выражения s?.Length для string s? Ответ: int? (Nullable<int>).
+
+<picture> <img src="3.6/5.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1391,6 +1557,10 @@ namespace _3._6.Тернарный_и_null_операторы
 
 ---
 № 56. Вычислите: string name = null; string res = name ?? "Anonymous";. Ответ: "Anonymous".
+
+<picture> <img src="3.6/6.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1415,6 +1585,10 @@ namespace _3._6.Тернарный_и_null_операторы
 
 ---
 № 57. Вычислите: string a = null, b = "User", c = "Admin"; string res = a ?? b ?? c;. Ответ: "User".
+
+<picture> <img src="3.6/7.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1439,6 +1613,10 @@ namespace _3._6.Тернарный_и_null_операторы
 
 ---
 № 58. Что вернет выражение false ? (10 / 0) : 42? Ответ: 42 (второй операнд не вычисляется из-за ложного условия).
+
+<picture> <img src="3.6/8.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1463,6 +1641,10 @@ namespace _3._6.Тернарный_и_null_операторы
 
 ---
 № 59. Скомпилируется ли код var x = condition ? 10 : "text";? Ответ: Нет (в классическом C#), так как у типов int и string нет неявного взаимного приведения.
+
+<picture> <img src="3.6/9.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1487,6 +1669,10 @@ namespace _3._6.Тернарный_и_null_операторы
 
 ---
 № 60. Чему равно int? count = null; int res = count?.GetHashCode() ?? -1;? Ответ: -1.
+
+<picture> <img src="3.6/10.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1513,6 +1699,10 @@ namespace _3._6.Тернарный_и_null_операторы
 ## 3.7. Операторы типов и приведения
 ---
 № 61. Что вернет выражение object obj = "Hello"; bool check = obj is string;? Ответ: true.
+
+<picture> <img src="3.7/1.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1537,6 +1727,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 62. Что вернет object obj = 123; string s = obj as string;? Ответ: null (оператор as возвращает null при невозможности безопасного приведения ссылочного типа).
+
+<picture> <img src="3.7/2.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1561,6 +1755,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 63. Что произойдет при явном приведении object obj = 123; string s = (string)obj;? Ответ: Выбросится исключение System.InvalidCastException.
+
+<picture> <img src="3.7/3.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1585,6 +1783,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 64. Что вернет typeof(int) == typeof(Int32)? Ответ: true (псевдоним языка ссылается на один и тот же тип CLR).
+
+<picture> <img src="3.7/4.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1608,6 +1810,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 65. Чему равен результат sizeof(long) в байтах? Ответ: 8.
+
+<picture> <img src="3.7/5.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1631,6 +1837,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 66. Что вернет null is string? Ответ: false (шаблон is для null всегда возвращает false, кроме шаблона is null).
+
+<picture> <img src="3.7/6.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1655,6 +1865,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 67. Что вернет выражение object x = null; bool b = x is null;? Ответ: true.
+
+<picture> <img src="3.7/7.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1679,6 +1893,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 68. Каков результат (int)3.99? Ответ: 3 (дробная часть отсекается без округления).
+
+<picture> <img src="3.7/8.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1702,6 +1920,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 69. Каков результат pattern matching:
+
+<picture> <img src="3.7/9.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1726,6 +1948,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ```
 ---
 № 70. Что вернет выражение default(int) и default(string)? Ответ: 0 и null
+
+<picture> <img src="3.7/10.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1749,6 +1975,10 @@ namespace _3._7.Операторы_типов_и_приведения
 ##4. 35 сложносоставных заданий на логические выражения
 ---
 № 71. 
+
+<picture> <img src="4.0/1.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1770,6 +2000,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 №72. 
+
+<picture> <img src="4.0/2.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1791,6 +2025,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 №73. 
+
+<picture> <img src="4.0/3.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1812,6 +2050,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 74. 
+
+<picture> <img src="4.0/4.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1833,6 +2075,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 75. 
+
+<picture> <img src="4.0/5.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1854,6 +2100,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 76. 
+
+<picture> <img src="4.0/6.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1875,6 +2125,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 77. 
+
+<picture> <img src="4.0/7.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1896,6 +2150,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 78. 
+
+<picture> <img src="4.0/8.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1917,6 +2175,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 79. 
+
+<picture> <img src="4.0/9.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1939,6 +2201,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 80. 
+
+<picture> <img src="4.0/10.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1961,6 +2227,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 81. 
+
+<picture> <img src="4.0/11.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -1982,6 +2252,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 82. 
+
+<picture> <img src="4.0/12.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2003,6 +2277,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 83. 
+
+<picture> <img src="4.0/13.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2024,6 +2302,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 84. 
+
+<picture> <img src="4.0/14.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2045,6 +2327,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 85. 
+
+<picture> <img src="4.0/15.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2066,6 +2352,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 86. 
+
+<picture> <img src="4.0/16.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2087,6 +2377,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 87. 
+
+<picture> <img src="4.0/17.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2108,6 +2402,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 88. 
+
+<picture> <img src="4.0/18.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2129,6 +2427,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 89. 
+
+<picture> <img src="4.0/19.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2150,6 +2452,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 90. 
+
+<picture> <img src="4.0/20.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2171,6 +2477,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 91. 
+
+<picture> <img src="4.0/21.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2192,6 +2502,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 92. 
+
+<picture> <img src="4.0/22.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2213,6 +2527,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 93. 
+
+<picture> <img src="4.0/23.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2234,6 +2552,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 94. 
+
+<picture> <img src="4.0/24.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2255,6 +2577,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 95. 
+
+<picture> <img src="4.0/25.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2276,6 +2602,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 96. 
+
+<picture> <img src="4.0/26.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2297,6 +2627,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 97. 
+
+<picture> <img src="4.0/27.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2318,6 +2652,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 98. 
+
+<picture> <img src="4.0/28.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2339,6 +2677,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 99. 
+
+<picture> <img src="4.0/29.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2360,6 +2702,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 100. 
+
+<picture> <img src="4.0/30.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2381,6 +2727,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 101. 
+
+<picture> <img src="4.0/31.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2402,6 +2752,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 102. 
+
+<picture> <img src="4.0/32.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2423,6 +2777,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 103. 
+
+<picture> <img src="4.0/33.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2444,6 +2802,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 104. 
+
+<picture> <img src="4.0/34.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -2465,6 +2827,10 @@ namespace _4._35_сложносоставных_заданий_на_логиче
 ```
 ---
 № 105. 
+
+<picture> <img src="4.0/35.png"> 
+</picture>
+
 ```csharp
 using System;
 using System.Collections.Generic;
